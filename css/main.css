@@ -103,38 +103,63 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+.h1{
+    align-items: center;
+    color: #D8DCE3;
+    display: flex;
+    font-family: 'Lora', serif;
+    justify-content: start;
+}
+
+.h2 {
+    align-items: center;
+    border-bottom: 1px solid #555;
+    color: #D8DCE3;
+    display: flex;
+    font-family: 'Lora', serif;
+    justify-content: start;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   align-items: center;
   display: flex;
-  flex-flow: row nowrap;
-  font-family: 'Montserrat', sans-serif;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   align-items: center;
-  border-radius: 1em;
   color: #b3d4fc;
   display: flex;
-  line-height: 1.5em;
   font-size: 1em;
-  background-color: #37363C;
   height: auto;
   justify-content: center;
+  line-height: 1.5em;
   padding: 15px;
   width: 30%;
 
 }
 
 
+footer{
+    align-items: center;
+    border-top: 1px solid #555;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+footer img{
+    padding-top: 25px;
+}
 
 
 /* ==========================================================================
